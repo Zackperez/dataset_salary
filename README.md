@@ -77,7 +77,23 @@ Contiene demasiados valores que tienen muchas cosas en común, pero escritas de 
 7. Director
 8. Coordinator  
 9. Associate
-
+10. Designer       
+11. Generalist      
+12. Executive        
+13. Rep              
+14. Other            
+15. Specialist       
+16. Accountant        
+17. Advisor           
+18. Recruiter         
+19. Consultant        
+20. Copywriter        
+21. Researcher        
+22. Officer           
+23. Writer            
+24. Support           
+25. Clerk             
+26. Producer          
 
 
 
