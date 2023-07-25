@@ -95,7 +95,23 @@ Contiene demasiados valores que tienen muchas cosas en común, pero escritas de 
 25. Clerk             
 26. Producer          
 
+## Etapa 3 Filas repetidas
 
+Se eliminan las filas que contienen datos duplicado
+
+## Etapa 4 Valores grandes
+
+Se tiene una parte con outliers eliminados y sin eliminar. Pero al ser tan pocos, se va a trabajar sin elimniarlos.
+
+## Etapa 5 Análisis - gráficas
+
+### Cantidad de personas por género
+
+Se puede visualizar que hay mas hombres que mujeres y otros.
+
+### Cantidad de personas según su nivel educativo
+
+Se puede visualizar, que hay mayor cantidad de licenciados y muy pocos los que solamente se han graduado del colegio
 
 
 
