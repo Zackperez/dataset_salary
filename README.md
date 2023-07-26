@@ -10,10 +10,10 @@ NO HAY INFORMACIÓN AÚN
 
 La data cuenta con **6704 filas** y **6 columnas** con la siguiente información:
 
-1. **"Age"**:  edad (numérica)
-2. **"Gender"**: Género (categórica)
-3. **"Education Level"**:  Nivel de educación (categórica)
-4. **"Job Title"**: Nombre del trabajo (categórica)
+1. **"Gender"**: Género (categórica)
+2. **"Education Level"**:  Nivel de educación (categórica)
+3. **"Job Title"**: Nombre del trabajo (categórica)
+4. **"Age"**:  edad (numérica)
 5. **"Years of Experiencie"**:  años de experiencia (numérica)
 6. **"Salary"**: salario (numérica)
 
@@ -49,12 +49,16 @@ Se renombran las siguientes columnas:
 
 ### Transformación de datos a minúscula
 
-Las siguientes columnas se transformaron sus valores a minúscula
+Las siguientes columnas se transformaron sus valores a minúscula, ya que hay datos con un mismo signficado pero están en mayuscula o minuscula. Columnas a transformar valores a minúscula:
 **Gender, Education_Level, Job_Title**
 
 ### Revisión de columnas categóricas y numéricas
 
-**Columnas categóricas**: Todas contienen mas de un subnivel
+**Columnas categóricas**: Todas contienen mas de un subnivel.
+
+Observacion: 
+
+La columna **Education_Level** contiene valores que se pueden unir.
 
 **Columnas numéricas**: Todas las columnas numéricas tienen desviaciones estándar ("std") diferentes de cero, lo que indica que no tienen un único valor.
 
@@ -62,7 +66,7 @@ Las siguientes columnas se transformaron sus valores a minúscula
 
 #### Columna Education_Level
 
-La columna de Education_Level contiene valores con el mimso nombre pero extensos, por lo cuál, se unirán esos valores a uno solo independientemente
+La columna de Education_Level contiene valores con el mimso nombre pero extensos, por lo cuál, se unirán esos valores a uno solo independientemente.
 
 #### Columna Job_Title
 
@@ -95,11 +99,25 @@ Contiene demasiados valores que tienen muchas cosas en común, pero escritas de 
 25. Clerk             
 26. Producer          
 
+#### Resumen
+
+Las columnas fueron estandarizadas y sus valores con mismo significados fueron unidas.
+
+
 ## Etapa 3 Filas repetidas
 
 Se eliminan las filas que contienen datos duplicado
 
+Tamaño del set antes de eliminar las filas repetidas: (6698, 6)
+Tamaño del set después de eliminar las filas repetidas: (1731, 6)
+
 ## Etapa 4 Valores grandes
+
+Age se tienen 3 outliers
+
+Years_Experience se tienen varios outliers
+
+Salary No hay outliers
 
 Se tiene una parte con outliers eliminados y sin eliminar. Pero al ser tan pocos, se va a trabajar sin elimniarlos.
 
